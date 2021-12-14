@@ -301,6 +301,7 @@ h6 {
 
 .project1 {
   background: url(https://i.imgur.com/fy9jqxB.png) no-repeat 50% 50%;
+  cursor: pointer;
   background-size: contain;
 }
 
@@ -318,12 +319,13 @@ h6 {
 }
 
 .project2 {
-  background: url(https://images.unsplash.com/photo-1554831681-792a292b0dd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat 50% 50%;
+  background: url("./img/Cook_Animation_.gif") no-repeat;
+  cursor: pointer;
   background-size: cover;
 }
 
 .project2::after {
-  content: "Pet Adoption.";
+  content: "Restaurant Suggestion Bot.";
   font-family: "Roboto Mono";
   font-size: 36px;
   position: relative;
@@ -336,7 +338,8 @@ h6 {
 }
 
 .project3 {
-  background: url(https://images.unsplash.com/photo-1554260570-83dc2f46ef79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) no-repeat 50% 50%;
+  background: url("./img/Drunk_Animation.gif") no-repeat 50% 50%;
+  cursor: pointer;
   background-size: cover;
 }
 
@@ -615,5 +618,5 @@ textarea:focus {
 }
 
 .projimage3 {
-  background: url(https://i.imgur.com/hViKjEI.gif) no-repeat 50% 70%;
+  background: url("https://i.imgur.com/hViKjEI.gif") no-repeat 50% 70%;
 }
